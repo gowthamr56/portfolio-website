@@ -3,3 +3,5 @@ streamlit-lottie==0.0.3
 requests==2.27.1
 urllib3==1.26.9
 Pillow==9.0.1
+google-cloud-firestore==2.6.0
+jsonschema==4.5.1

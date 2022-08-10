@@ -1,5 +1,4 @@
 # ABOUT PAGE
-
 import streamlit as st
 from streamlit_lottie import st_lottie
 import requests
@@ -80,8 +79,7 @@ with col2:
         """, unsafe_allow_html=True
     )
 
-# links = st.container()
-# with links:
+# social profiles
 st.markdown(
     """
         <hr>
