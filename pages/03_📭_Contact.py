@@ -53,9 +53,9 @@ col1, col2 = st.columns(2)
 # and stores it in firestore database
 with col1:
     with st.form(key="contact_form"):
-        name = st.text_input("Name")
-        email = st.text_input("E-mail or Phone")
-        message = st.text_area("Message")
+        name = st.text_input("Name").strip()
+        email = st.text_input("E-mail or Phone").strip()
+        message = st.text_area("Message").strip()
         btn = st.form_submit_button(label="Send")
 
 if btn:
