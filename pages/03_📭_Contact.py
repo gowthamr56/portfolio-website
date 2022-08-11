@@ -60,16 +60,19 @@ with col1:
 
 if btn:
     if all((name, email, message)):
-        # creating a NEW document reference for the users using their name
-        doc_ref = db.collection("messages").document(name)
-        # uploading details like email and message to the firestore DB
-        doc_ref.set(
-            {
-                "email/phone": email,
-                "message": message
-            }
-        )
-        st.success("Your message is sent successfully")
+        if ("@" in email) and ("." in email) and (not(email.startswith("@"))):
+            # creating a NEW document reference for the users using their name
+            doc_ref = db.collection("messages").document(name)
+            # uploading details like email and message to the firestore DB
+            doc_ref.set(
+                {
+                    "email/phone": email,
+                    "message": message
+                }
+            )
+            st.success("Your message is sent successfully")
+        else:
+            st.error("Please, enter a valid E-mail address")
     else:
         st.error("Please, fill out all the fields")
 
