@@ -28,19 +28,6 @@ st.markdown("""
             justify-content: center;
             align-items: center;
         }
-        .resume-button{
-            display: block;
-            width: 70px;
-            text-align: center;
-            text-decoration: none;
-            border: 2px solid #31333f;
-            border-radius: 5px;
-        }
-        .resume-button:hover{
-            text-decoration: underline;
-            background-color: #E7E4E4;
-            transform: scale(0.98);
-        }
     </style>
 """, unsafe_allow_html=True)
 
@@ -59,11 +46,6 @@ with col1:
         # Gowtham Ravichandran
         #### I'm a guy who mostly thinks about the solution in a pythonic🐍 way
     """, unsafe_allow_html=True)
-    st.markdown("""
-        <a href="https://resume.io/r/NkRLMzXwb" class="resume-button" style="color: black;">Resume</a>
-    """, unsafe_allow_html=True)
-    with open("Gowtham-Resume.pdf", "rb") as file:
-        st.download_button("Resume", data=file, file_name="Gowtham-Resume.pdf")
 
 with col2:
     lottie_url = "https://assets9.lottiefiles.com/packages/lf20_SmywXC.json"
