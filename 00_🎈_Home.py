@@ -62,6 +62,8 @@ with col1:
     st.markdown("""
         <a href="https://resume.io/r/NkRLMzXwb" class="resume-button" style="color: black;">Resume</a>
     """, unsafe_allow_html=True)
+    with open("Gowtham-Resume.pdf", "rb") as file:
+        st.download_button("Resume", data=file, file_name="Gowtham-Resume.pdf")
 
 with col2:
     lottie_url = "https://assets9.lottiefiles.com/packages/lf20_SmywXC.json"
