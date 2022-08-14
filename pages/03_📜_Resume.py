@@ -24,9 +24,17 @@ st.markdown(
             header, footer{
                 visibility: hidden;
             }
+            div.row-widget.stDownloadButton{
+                text-align: center;
+            }
         </style>
         # 📜 Resume
     """, unsafe_allow_html=True
 )
 
 st.image("resume_image.jpg")
+
+download_button = st.container()
+with download_button:
+    with open("resume_pdf.pdf", "rb") as file:
+        st.download_button("Download", data=file, file_name="Gowtham-Resume.pdf")
