@@ -13,7 +13,7 @@ page_icon = Image.open("page_icon")
 # page configurations
 st.set_page_config(
     page_icon=page_icon,
-    page_title="Gowtham - Blogs",
+    page_title="Gowtham - Resume",
     layout="wide"
 )
 
