@@ -32,7 +32,7 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-st.image("resume_image.jpg")
+st.image("resume_img.png")
 
 download_button = st.container()
 with download_button:
