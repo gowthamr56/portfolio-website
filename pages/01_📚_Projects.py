@@ -67,6 +67,20 @@ def project_info(project_title, demo_link, github_link):
 # title of the page
 # st.title("📚 Projects")
 
+# fifth project - weather forecasting application
+five = st.container()
+with five:
+    col1, col2 = st.columns(2)
+    with col1:
+        project_info(
+            project_title="Weather forecasting appliction",
+            demo_link="https://check-weather-in-your-city.herokuapp.com",
+            github_link="https://github.com/gowthamr56/weather-application-with-flask.git"
+        )
+    with col2:
+        lottie_url = "https://assets10.lottiefiles.com/private_files/lf30_jmgekfqg.json"
+        st_lottie(load_lottie_url(lottie_url))
+
 # first project - youtube video/audio downloader
 one = st.container()
 with one:
