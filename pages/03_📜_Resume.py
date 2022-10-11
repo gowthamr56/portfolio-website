@@ -4,6 +4,7 @@ from streamlit_lottie import st_lottie
 import requests
 from urllib import request
 from PIL import Image
+import webbrowser
 
 # getting page icon 
 icon_url = "https://raw.githubusercontent.com/gowthamr56/portfolio-website/master/icons/page_icon.png"
@@ -24,17 +25,23 @@ st.markdown(
             header, footer{
                 visibility: hidden;
             }
-            div.row-widget.stDownloadButton{
+            div.row-widget.stDownloadButton,
+            div.row-widget.stButton{
                 text-align: center;
             }
         </style>
         # 📜 Resume
+        <br>
     """, unsafe_allow_html=True
 )
 
-st.image("resume_img.png")
-
-download_button = st.container()
-with download_button:
+view = st.checkbox("View")
+if view:
+    resume_url = "https://resume.io/r/NkRLMzXwb"
+    
+    view_btn = st.button("Click to view")
+    if view_btn:
+        webbrowser.open_new_tab(resume_url)
+else:
     with open("resume_pdf.pdf", "rb") as file:
-        st.download_button("Download", data=file, file_name="Gowtham-Resume.pdf")
+        st.download_button(f"Click to download", data=file, file_name="Gowtham-Resume.pdf")

@@ -62,13 +62,13 @@ with one:
     with col1:
         blog_post(
             blog_title="How to detect colors using Python and Computer Vision",
-            blog_link="https://pynerds.blogspot.com/2021/09/color-detection-using-opencv-and-python.html",
+            blog_link="https://medium.com/@gowtham180502/how-to-detect-colors-using-opencv-python-98aa0241e713",
             blog_caption="In this blog, we are going to see how the colors are detected by the OpenCV module."
         )
     with col2:
         blog_post(
             blog_title="How do we detect and track motions using Python and Computer Vision",
-            blog_link="https://pynerds.blogspot.com/2021/09/motion-detection-and-tracking-using.html",
+            blog_link="https://medium.com/@gowtham180502/motion-detection-and-tracking-using-opencv-python-ea75ef927e72",
             blog_caption="In this blog, we are going to see how to detect and track movements using the OpenCV module."
         )
     with col3:
@@ -85,8 +85,8 @@ with two:
     with col1:
         blog_post(
             blog_title="How can we replace background green screen using Python and Computer Vision",
-            blog_link="https://pynerds.blogspot.com/2022/06/replace-green-screen-using-opencv-and.html",
-            blog_caption="In this blog, we are going to discuss how to replace a video which is having green screen background."
+            blog_link="https://medium.com/@gowtham180502/how-can-we-replace-the-green-screen-background-using-python-4947f1575b1f",
+            blog_caption="In this blog, we are going to discuss how to replace a image which is having green screen background."
         )
     with col2:
         blog_post(
