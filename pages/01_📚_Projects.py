@@ -67,6 +67,7 @@ def project_info(project_title, demo_link, github_link):
 # title of the page
 # st.title("📚 Projects")
 
+
 # fifth project - weather forecasting application
 five = st.container()
 with five:

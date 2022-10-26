@@ -61,21 +61,21 @@ with one:
     col1, col2, col3 = st.columns(3)
     with col1:
         blog_post(
-            blog_title="How to detect colors using Python and Computer Vision",
-            blog_link="https://medium.com/@gowtham180502/how-to-detect-colors-using-opencv-python-98aa0241e713",
-            blog_caption="In this blog, we are going to see how the colors are detected by the OpenCV module."
+            blog_title="How to list all the attributes and methods available inside the Python class?",
+            blog_link="https://medium.com/@gowtham180502/how-to-list-all-the-attributes-and-methods-available-inside-the-python-class-154067789b84",
+            blog_caption="In this blog, we are going to learn how to list all the attributes and methods available inside the python class/module."
         )
     with col2:
         blog_post(
-            blog_title="How do we detect and track motions using Python and Computer Vision",
-            blog_link="https://medium.com/@gowtham180502/motion-detection-and-tracking-using-opencv-python-ea75ef927e72",
-            blog_caption="In this blog, we are going to see how to detect and track movements using the OpenCV module."
+            blog_title="How to detect colors using Python and Computer Vision?",
+            blog_link="https://medium.com/@gowtham180502/how-to-detect-colors-using-opencv-python-98aa0241e713",
+            blog_caption="In this blog, we are going to see how the colors are detected by the OpenCV module."
         )
     with col3:
         blog_post(
-            blog_title="Paranthesis checker using Python - Stack Application",
-            blog_link="https://pynerds.blogspot.com/2022/02/paranthesis-checker-implementation.html",
-            blog_caption="In this blog, we are going to see one of the implementation of stack application which is a parenthesis checker."
+            blog_title="How do we detect and track motions using Python and Computer Vision?",
+            blog_link="https://medium.com/@gowtham180502/motion-detection-and-tracking-using-opencv-python-ea75ef927e72",
+            blog_caption="In this blog, we are going to see how to detect and track movements using the OpenCV module."
         )
 
 # row two
@@ -84,21 +84,21 @@ with two:
     col1, col2, col3 = st.columns(3)
     with col1:
         blog_post(
-            blog_title="How can we replace background green screen using Python and Computer Vision",
+            blog_title="Paranthesis checker using Python - Stack Application",
+            blog_link="https://pynerds.blogspot.com/2022/02/paranthesis-checker-implementation.html",
+            blog_caption="In this blog, we are going to see one of the implementation of stack application which is a parenthesis checker."
+        )
+    with col2:
+        blog_post(
+            blog_title="How can we replace background green screen using Python and Computer Vision?",
             blog_link="https://medium.com/@gowtham180502/how-can-we-replace-the-green-screen-background-using-python-4947f1575b1f",
             blog_caption="In this blog, we are going to discuss how to replace a image which is having green screen background."
         )
-    with col2:
+    with col3:
         blog_post(
             blog_title="Learn how to recognize user's voice input using Python",
             blog_link="https://pynerds.blogspot.com/2021/08/speech-recognition-using-python.html",
             blog_caption="This blog explains the implementation of the how we can recognize voice input from the user."
-        )
-    with col3:
-        blog_post(
-            blog_title="How do we handle files in Python - File Handling",
-            blog_link="https://pynerds.blogspot.com/2020/12/file-handling-python.html",
-            blog_caption="This blog explains about the file handling concept in Python"
         )
 
 # row three
@@ -107,15 +107,19 @@ with three:
     col1, col2, col3 = st.columns(3)
     with col1:
         blog_post(
+            blog_title="How do we handle files in Python? - File Handling",
+            blog_link="https://pynerds.blogspot.com/2020/12/file-handling-python.html",
+            blog_caption="This blog explains about the file handling concept in Python"
+        )
+    with col2:
+        blog_post(
             blog_title="Text to Speech converter using Python",
             blog_link="https://pynerds.blogspot.com/2021/08/converting-text-to-speech-using-python.html",
             blog_caption="In this blog, you are going to learn about how to convert text to speech using python"
         )
-    with col2:
+    with col3:
         blog_post(
-            blog_title="How do we make an audio book using Python",
+            blog_title="How do we make an audio book using Python?",
             blog_link="https://pynerds.blogspot.com/2021/08/make-audio-book-from-pdf-file-using.html",
             blog_caption="Here, you are going to know about making audio book from PDF file book using Python"
         )
-    with col3:
-        pass
