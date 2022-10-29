@@ -84,21 +84,21 @@ with two:
     col1, col2, col3 = st.columns(3)
     with col1:
         blog_post(
+            blog_title="How to compare two images and get an accuracy level with Python?",
+            blog_link="https://medium.com/@gowtham180502/how-to-compare-two-images-and-get-an-accuracy-level-with-python-61d8d953a942",
+            blog_caption="In this article, I am going to take you to how to compare two images and get an accuracy level between those images using Python, OpenCV and Face Recognition modules."
+        )
+    with col2:
+        blog_post(
             blog_title="Paranthesis checker using Python - Stack Application",
             blog_link="https://pynerds.blogspot.com/2022/02/paranthesis-checker-implementation.html",
             blog_caption="In this blog, we are going to see one of the implementation of stack application which is a parenthesis checker."
         )
-    with col2:
+    with col3:
         blog_post(
             blog_title="How can we replace background green screen using Python and Computer Vision?",
             blog_link="https://medium.com/@gowtham180502/how-can-we-replace-the-green-screen-background-using-python-4947f1575b1f",
             blog_caption="In this blog, we are going to discuss how to replace a image which is having green screen background."
-        )
-    with col3:
-        blog_post(
-            blog_title="Learn how to recognize user's voice input using Python",
-            blog_link="https://pynerds.blogspot.com/2021/08/speech-recognition-using-python.html",
-            blog_caption="This blog explains the implementation of the how we can recognize voice input from the user."
         )
 
 # row three
@@ -107,19 +107,34 @@ with three:
     col1, col2, col3 = st.columns(3)
     with col1:
         blog_post(
+            blog_title="Learn how to recognize user's voice input using Python",
+            blog_link="https://pynerds.blogspot.com/2021/08/speech-recognition-using-python.html",
+            blog_caption="This blog explains the implementation of the how we can recognize voice input from the user."
+        )
+    with col2:
+        blog_post(
             blog_title="How do we handle files in Python? - File Handling",
             blog_link="https://pynerds.blogspot.com/2020/12/file-handling-python.html",
             blog_caption="This blog explains about the file handling concept in Python"
         )
-    with col2:
+    with col3:
         blog_post(
             blog_title="Text to Speech converter using Python",
             blog_link="https://pynerds.blogspot.com/2021/08/converting-text-to-speech-using-python.html",
             blog_caption="In this blog, you are going to learn about how to convert text to speech using python"
         )
-    with col3:
+
+# row four
+four = st.container()
+with four:
+    col1, col2, col3 = st.columns(3)
+    with col1:
         blog_post(
             blog_title="How do we make an audio book using Python?",
             blog_link="https://pynerds.blogspot.com/2021/08/make-audio-book-from-pdf-file-using.html",
             blog_caption="Here, you are going to know about making audio book from PDF file book using Python"
         )
+    with col2:
+        pass
+    with col3:
+        pass
