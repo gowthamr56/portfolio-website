@@ -106,21 +106,21 @@ with three:
     col1, col2, col3 = st.columns(3)
     with col1:
         blog_post(
+            blog_title="Implementing RSA Algorithm using Python",
+            blog_link="https://medium.com/@gowtham180502/implementing-rsa-algorithm-using-python-836f7da2a8e0",
+            blog_caption="This article explains what actually the RSA algorithm is in cryptography and shows how to implement the RSA algorithm for the encryption and decryption of data using Python. Here, data refers to numbers. You can also use string data for encryption and decryption using this algorithm."
+        )
+    with col2:
+        blog_post(
             blog_title="Paranthesis checker using Python - Stack Application",
             blog_link="https://pynerds.blogspot.com/2022/02/paranthesis-checker-implementation.html",
             blog_caption="In this blog, we are going to see one of the implementation of stack application which is a parenthesis checker."
         )
-    with col2:
+    with col3:
         blog_post(
             blog_title="How can we replace background green screen using Python and Computer Vision?",
             blog_link="https://medium.com/@gowtham180502/how-can-we-replace-the-green-screen-background-using-python-4947f1575b1f",
             blog_caption="In this blog, we are going to discuss how to replace a image which is having green screen background."
-        )
-    with col3:
-        blog_post(
-            blog_title="Learn how to recognize user's voice input using Python",
-            blog_link="https://pynerds.blogspot.com/2021/08/speech-recognition-using-python.html",
-            blog_caption="This blog explains the implementation of the how we can recognize voice input from the user."
         )
 
 
@@ -129,21 +129,21 @@ with four:
     col1, col2, col3 = st.columns(3)
     with col1:
         blog_post(
+            blog_title="Learn how to recognize user's voice input using Python",
+            blog_link="https://pynerds.blogspot.com/2021/08/speech-recognition-using-python.html",
+            blog_caption="This blog explains the implementation of the how we can recognize voice input from the user."
+        )
+    with col2:
+        blog_post(
             blog_title="10 simple coding interview questions and their answers using Python",
             blog_link="https://www.isrgrajan.com/10-simple-coding-interview-questions-and-their-answers-using-python.html",
             blog_caption="In this article, we are going to discuss 10 simple Python coding interview questions and answers that are entirely for freshers."
         )
-    with col2:
+    with col3:
         blog_post(
             blog_title="How do we handle files in Python? - File Handling",
             blog_link="https://pynerds.blogspot.com/2020/12/file-handling-python.html",
             blog_caption="This blog explains about the file handling concept in Python"
-        )
-    with col3:
-        blog_post(
-            blog_title="Text to Speech converter using Python",
-            blog_link="https://pynerds.blogspot.com/2021/08/converting-text-to-speech-using-python.html",
-            blog_caption="In this blog, you are going to learn about how to convert text to speech using python"
         )
 
 
@@ -152,11 +152,15 @@ with five:
     col1, col2, col3 = st.columns(3)
     with col1:
         blog_post(
+            blog_title="Text to Speech converter using Python",
+            blog_link="https://pynerds.blogspot.com/2021/08/converting-text-to-speech-using-python.html",
+            blog_caption="In this blog, you are going to learn about how to convert text to speech using python"
+        )
+    with col2:
+        blog_post(
             blog_title="How do we make an audio book using Python?",
             blog_link="https://pynerds.blogspot.com/2021/08/make-audio-book-from-pdf-file-using.html",
             blog_caption="Here, you are going to know about making audio book from PDF file book using Python"
         )
-    with col2:
-        pass
     with col3:
         pass
