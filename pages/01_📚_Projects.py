@@ -70,10 +70,11 @@ def project_info(project_title, demo_link, github_link):
 # sixth project - handwritten digit recognition system
 six = st.container()
 with six:
-    col1, col2 = st.columns(2)
-    with col1:
-        lottie_url = "https://assets1.lottiefiles.com/packages/lf20_KO31Fh.json"
-        st_lottie(load_lottie_url(lottie_url))
+    # col1, col2 = st.columns(2)
+    col2 = st.columns(2)
+    # with col1:
+    #     lottie_url = "https://assets1.lottiefiles.com/packages/lf20_KO31Fh.json"
+    #     st_lottie(load_lottie_url(lottie_url))
     with col2:
         project_info(
             project_title="A Novel Method for Handwritten Digit Recognition System",
@@ -84,24 +85,26 @@ with six:
 # fifth project - weather forecasting application
 five = st.container()
 with five:
-    col1, col2 = st.columns(2)
+    # col1, col2 = st.columns(2)
+    col1 = st.columns(2)
     with col1:
         project_info(
             project_title="Weather forecasting appliction",
             demo_link="https://check-weather-in-your-city.herokuapp.com",
             github_link="https://github.com/gowthamr56/weather-application-with-flask.git"
         )
-    with col2:
-        lottie_url = "https://assets10.lottiefiles.com/private_files/lf30_jmgekfqg.json"
-        st_lottie(load_lottie_url(lottie_url))
+    # with col2:
+    #     lottie_url = "https://assets10.lottiefiles.com/private_files/lf30_jmgekfqg.json"
+    #     st_lottie(load_lottie_url(lottie_url))
 
 # first project - youtube video/audio downloader
 one = st.container()
 with one:
-    col1, col2 = st.columns(2)
-    with col1:
-        lottie_url = "https://assets5.lottiefiles.com/packages/lf20_2wikmt5t.json"
-        st_lottie(load_lottie_url(lottie_url))
+    # col1, col2 = st.columns(2)
+    col2 = st.columns(2)
+    # with col1:
+    #     lottie_url = "https://assets5.lottiefiles.com/packages/lf20_2wikmt5t.json"
+    #     st_lottie(load_lottie_url(lottie_url))
     with col2:
         project_info(
             project_title="YouTube video and audio downloader",
@@ -112,24 +115,26 @@ with one:
 # second project - QR Code generator/scanner
 two = st.container()
 with two:
-    col1, col2 = st.columns(2)
+    # col1, col2 = st.columns(2)
+    col1 = st.columns(2)
     with col1:
         project_info(
             project_title="QR CODE generator and scanner",
             demo_link="https://gowthamr56-scan-create-qr-main-s638mm.streamlitapp.com/",
             github_link="https://github.com/gowthamr56/scan-create-qr.git"
         )
-    with col2:
-        lottie_url = "https://assets9.lottiefiles.com/packages/lf20_eivmynev.json"
-        st_lottie(load_lottie_url(lottie_url))
+    # with col2:
+    #     lottie_url = "https://assets9.lottiefiles.com/packages/lf20_eivmynev.json"
+    #     st_lottie(load_lottie_url(lottie_url))
 
 # third project - gesture volume control
 three = st.container()
 with three:
-    col1, col2 = st.columns(2)
-    with col1:
-        lottie_url = "https://assets4.lottiefiles.com/packages/lf20_ag6arnx2.json"
-        st_lottie(load_lottie_url(lottie_url))
+    # col1, col2 = st.columns(2)
+    col2 = st.columns(2)
+    # with col1:
+    #     lottie_url = "https://assets4.lottiefiles.com/packages/lf20_ag6arnx2.json"
+    #     st_lottie(load_lottie_url(lottie_url))
     with col2:
         project_info(
             project_title="Hand gesture volume control using computer vision",
@@ -140,13 +145,14 @@ with three:
 # fourth project - virtual mouse
 four = st.container()
 with four:
-    col1, col2 = st.columns(2)
+    # col1, col2 = st.columns(2)
+    col1  = st.columns(2)
     with col1:
         project_info(
             project_title="Virtual mouse using computer vision",
             demo_link="https://pynerds.blogspot.com",
             github_link="https://github.com/gowthamr56/virtual-mouse-using-computer-vision.git"
         )
-    with col2:
-        lottie_url = "https://assets1.lottiefiles.com/packages/lf20_x6gojhex.json"
-        st_lottie(load_lottie_url(lottie_url))
+    # with col2:
+    #     lottie_url = "https://assets1.lottiefiles.com/packages/lf20_x6gojhex.json"
+    #     st_lottie(load_lottie_url(lottie_url))
