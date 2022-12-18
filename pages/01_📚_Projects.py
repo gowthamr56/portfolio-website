@@ -79,7 +79,7 @@ with six:
         )
     with col2:
         project_info(
-            project_title="Weather forecasting appliction\n",
+            project_title="Weather forecasting appliction\n\n",
             demo_link="https://check-weather-in-your-city.herokuapp.com",
             github_link="https://github.com/gowthamr56/weather-application-with-flask.git"
         )
