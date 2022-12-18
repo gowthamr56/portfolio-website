@@ -67,6 +67,19 @@ def project_info(project_title, demo_link, github_link):
 # title of the page
 # st.title("📚 Projects")
 
+# sixth project - handwritten digit recognition system
+six = st.container()
+with six:
+    col1, col2 = st.columns(2)
+    with col1:
+        lottie_url = "https://assets1.lottiefiles.com/packages/lf20_KO31Fh.json"
+        st_lottie(load_lottie_url(lottie_url))
+    with col2:
+        project_info(
+            project_title="A Novel Method for Handwritten Digit Recognition System",
+            demo_link="https://youtu.be/K_E4Gk10cmM",
+            github_link="https://github.com/IBM-EPBL/IBM-Project-41956-1660646536"
+        )
 
 # fifth project - weather forecasting application
 five = st.container()
