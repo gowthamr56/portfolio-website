@@ -79,11 +79,16 @@ with six:
         )
     with col2:
         project_info(
-            project_title="Weather forecasting appliction\n\n",
+            project_title="Weather forecasting appliction",
             demo_link="https://check-weather-in-your-city.herokuapp.com",
             github_link="https://github.com/gowthamr56/weather-application-with-flask.git"
         )
         
+st.markdown(
+    """
+    <hr>
+    """, unsafe_allow_html=True
+)
 
 # fifth project - weather forecasting application
 five = st.container()
@@ -102,6 +107,12 @@ with five:
             github_link="https://github.com/gowthamr56/scan-create-qr.git"
         )
 
+st.markdown(
+    """
+    <hr>
+    """, unsafe_allow_html=True
+)
+
 # first project - youtube video/audio downloader
 one = st.container()
 with one:
@@ -118,3 +129,9 @@ with one:
             demo_link="https://pynerds.blogspot.com",
             github_link="https://github.com/gowthamr56/virtual-mouse-using-computer-vision.git"
         )
+
+st.markdown(
+    """
+    <hr>
+    """, unsafe_allow_html=True
+)
