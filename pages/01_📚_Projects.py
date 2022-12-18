@@ -71,7 +71,7 @@ def project_info(project_title, demo_link, github_link):
 six = st.container()
 with six:
     # col1, col2 = st.columns(2)
-    col2 = st.columns(2)
+    col2 = st.columns(1)
     # with col1:
     #     lottie_url = "https://assets1.lottiefiles.com/packages/lf20_KO31Fh.json"
     #     st_lottie(load_lottie_url(lottie_url))
@@ -86,7 +86,7 @@ with six:
 five = st.container()
 with five:
     # col1, col2 = st.columns(2)
-    col1 = st.columns(2)
+    col1 = st.columns(1)
     with col1:
         project_info(
             project_title="Weather forecasting appliction",
@@ -101,7 +101,7 @@ with five:
 one = st.container()
 with one:
     # col1, col2 = st.columns(2)
-    col2 = st.columns(2)
+    col2 = st.columns(1)
     # with col1:
     #     lottie_url = "https://assets5.lottiefiles.com/packages/lf20_2wikmt5t.json"
     #     st_lottie(load_lottie_url(lottie_url))
@@ -116,7 +116,7 @@ with one:
 two = st.container()
 with two:
     # col1, col2 = st.columns(2)
-    col1 = st.columns(2)
+    col1 = st.columns(1)
     with col1:
         project_info(
             project_title="QR CODE generator and scanner",
@@ -131,7 +131,7 @@ with two:
 three = st.container()
 with three:
     # col1, col2 = st.columns(2)
-    col2 = st.columns(2)
+    col2 = st.columns(1)
     # with col1:
     #     lottie_url = "https://assets4.lottiefiles.com/packages/lf20_ag6arnx2.json"
     #     st_lottie(load_lottie_url(lottie_url))
@@ -146,7 +146,7 @@ with three:
 four = st.container()
 with four:
     # col1, col2 = st.columns(2)
-    col1  = st.columns(2)
+    col1  = st.columns(1)
     with col1:
         project_info(
             project_title="Virtual mouse using computer vision",
