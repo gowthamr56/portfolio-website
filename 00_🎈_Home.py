@@ -6,9 +6,9 @@ from urllib import request
 from PIL import Image
 
 # getting page icon 
-icon_url = "https://raw.githubusercontent.com/gowthamr56/portfolio-website/master/icons/page_icon.png"
-request.urlretrieve(url=icon_url, filename="page_icon")
-page_icon = Image.open("page_icon")
+# icon_url = "https://raw.githubusercontent.com/gowthamr56/portfolio-website/master/icons/page_icon.png"
+# request.urlretrieve(url=icon_url, filename="page_icon")
+page_icon = Image.open("icons\page_icon.png")
 
 # page configurations
 st.set_page_config(
