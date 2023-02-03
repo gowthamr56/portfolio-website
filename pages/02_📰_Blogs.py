@@ -3,7 +3,8 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 import requests
 from urllib import request
-from PIL import Image   
+from PIL import Image
+from typing import Union
 
 # getting page icon 
 icon_url = "https://raw.githubusercontent.com/gowthamr56/portfolio-website/master/icons/page_icon.png"
@@ -50,7 +51,7 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-def blog_post(blog_title: str, blog_link: str, blog_caption: str, date: int, month: str, year: int, topics: list | tuple):
+def blog_post(blog_title: str, blog_link: str, blog_caption: str, date: int, month: str, year: int, topics: Union[list, tuple]):
     st.markdown(
         f"""
             <p style="margin-bottom: -10px; color: grey;">{month} {date}, {year}</p>
