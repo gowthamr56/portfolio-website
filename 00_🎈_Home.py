@@ -4,11 +4,14 @@ from streamlit_lottie import st_lottie
 import requests
 from urllib import request
 from PIL import Image
+import os
 
 # getting page icon 
-icon_url = "https://raw.githubusercontent.com/gowthamr56/portfolio-website/master/icons/page_icon.png"
-request.urlretrieve(url=icon_url, filename="page_icon")
-page_icon = Image.open("page_icon")
+# icon_url = "https://raw.githubusercontent.com/gowthamr56/portfolio-website/master/icons/page_icon.png"
+# request.urlretrieve(url=icon_url, filename="page_icon")
+
+icon_path = f"{os.path.dirname(__file__)}/icons/page_icon.png"
+page_icon = Image.open(icon_path)
 
 # page configurations
 st.set_page_config(
