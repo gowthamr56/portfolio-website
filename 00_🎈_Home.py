@@ -13,12 +13,12 @@ import os
 print()
 print(__file__)
 print()
-icon_path = os.path.abspath("icons\\page_icon.png")
-page_icon = Image.open(icon_path)
+# icon_path = os.path.abspath("icons\\page_icon.png")
+# page_icon = Image.open(icon_path)
 
 # page configurations
 st.set_page_config(
-    page_icon=page_icon,
+    # page_icon=page_icon,
     page_title="Gowtham - Home",
     layout="wide"
 )
