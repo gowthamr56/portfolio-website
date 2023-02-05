@@ -7,14 +7,14 @@ from PIL import Image
 import os
 
 # getting page icon 
-# icon_url = "https://raw.githubusercontent.com/gowthamr56/portfolio-website/master/icons/page_icon.png"
-# request.urlretrieve(url=icon_url, filename="page_icon")
+icon_url = "https://raw.githubusercontent.com/gowthamr56/portfolio-website/master/icons/page_icon.png"
+request.urlretrieve(url=icon_url, filename="page_icon")
 
 print()
 print(__file__)
 print()
-# icon_path = os.path.abspath("icons\\page_icon.png")
-# page_icon = Image.open(icon_path)
+icon_path = os.path.abspath("icons\\page_icon.png")
+page_icon = Image.open(icon_path)
 
 # page configurations
 st.set_page_config(
