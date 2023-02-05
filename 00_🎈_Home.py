@@ -10,7 +10,7 @@ import os
 # icon_url = "https://raw.githubusercontent.com/gowthamr56/portfolio-website/master/icons/page_icon.png"
 # request.urlretrieve(url=icon_url, filename="page_icon")
 
-icon_path = os.path.join(os.path.dirname(__file__), "icons\\page_icon.png")
+icon_path = os.path.abspath("icons\\page_icon.png")
 page_icon = Image.open(icon_path)
 
 # page configurations
