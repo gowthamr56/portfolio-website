@@ -4,7 +4,6 @@ from streamlit_lottie import st_lottie
 import requests
 from urllib import request
 from PIL import Image
-import os
 
 # getting page icon 
 icon_url = "https://raw.githubusercontent.com/gowthamr56/portfolio-website/master/icons/page_icon.png"

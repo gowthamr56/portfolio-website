@@ -55,7 +55,7 @@ def load_lottie_url(lottie_url: str):
     return r.json()
 
 # generalized method to dispaly the details about the project
-def project_info(project_title, demo_link, github_link):
+def project_info(project_title: str, demo_link: str, github_link: str) -> None:
     st.markdown(f"""
         # {project_title}
     """, unsafe_allow_html=True)

@@ -51,7 +51,7 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-def blog_post(blog_title: str, blog_link: str, blog_caption: str, date: int, month: str, year: int, topics: Union[list, tuple]):
+def blog_post(blog_title: str, blog_link: str, blog_caption: str, date: int, month: str, year: int, topics: Union[list, tuple]) -> None:
     st.markdown(
         f"""
             <p style="margin-bottom: -10px; color: grey;">{month} {date}, {year}</p>
