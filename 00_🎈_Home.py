@@ -13,7 +13,7 @@ request.urlretrieve(url=icon_url, filename="page_icon")
 print()
 print(__file__)
 print()
-icon_path = os.path.join(os.path.dirname(__file__), "icons/page_icon.png")
+icon_path = os.path.join(os.path.dirname(__file__), "blob/master/icons/page_icon.png")
 page_icon = Image.open(icon_path)
 
 # page configurations
