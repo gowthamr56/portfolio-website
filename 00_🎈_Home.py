@@ -1,18 +1,18 @@
 # HOME PAGE
 import streamlit as st
 from streamlit_lottie import st_lottie
-import requests
 from urllib import request
 from PIL import Image
+from generalize import load_lottie_url
 
 # getting page icon 
-icon_url = "https://raw.githubusercontent.com/gowthamr56/portfolio-website/master/icons/page_icon.png"
-request.urlretrieve(url=icon_url, filename="page_icon")
-page_icon = Image.open("page_icon")
+# icon_url = "https://raw.githubusercontent.com/gowthamr56/portfolio-website/master/icons/page_icon.png"
+# request.urlretrieve(url=icon_url, filename="page_icon")
+# page_icon = Image.open("page_icon")
 
 # page configurations
 st.set_page_config(
-    page_icon=page_icon,
+    # page_icon=page_icon,
     page_title="Gowtham - Home",
     layout="wide"
 )
@@ -31,12 +31,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# function that loads lottiefiles through url
-def load_lottie_url(lottie_url: str):
-    r = requests.get(lottie_url)
-    if r.status_code != 200:
-        return None
-    return r.json()
+
 
 col1, col2 = st.columns(2)
 

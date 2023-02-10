@@ -5,3 +5,4 @@ urllib3==1.26.9
 Pillow==9.0.1
 google-cloud-firestore==2.6.0
 jsonschema==4.5.1
+protobuf==3.19.6
