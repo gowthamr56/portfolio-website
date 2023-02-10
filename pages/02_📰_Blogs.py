@@ -1,15 +1,10 @@
 # BLOGS PAGE
 import streamlit as st
-from streamlit_lottie import st_lottie
-import requests
-from urllib import request
-from PIL import Image
 from typing import Union
+from generalize import get_page_icon
 
 # getting page icon 
-icon_url = "https://raw.githubusercontent.com/gowthamr56/portfolio-website/master/icons/page_icon.png"
-request.urlretrieve(url=icon_url, filename="page_icon")
-page_icon = Image.open("page_icon")
+page_icon = get_page_icon(icon_url="https://raw.githubusercontent.com/gowthamr56/portfolio-website/master/icons/page_icon.png")
 
 # page configurations
 st.set_page_config(

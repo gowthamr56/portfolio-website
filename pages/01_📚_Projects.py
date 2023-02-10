@@ -1,14 +1,9 @@
 # PROJECTS PAGE
 import streamlit as st
-from streamlit_lottie import st_lottie
-import requests
-from urllib import request
-from PIL import Image
+from generalize import get_page_icon
 
 # getting page icon 
-icon_url = "https://raw.githubusercontent.com/gowthamr56/portfolio-website/master/icons/page_icon.png"
-request.urlretrieve(url=icon_url, filename="page_icon")
-page_icon = Image.open("page_icon")
+page_icon = get_page_icon(icon_url="https://raw.githubusercontent.com/gowthamr56/portfolio-website/master/icons/page_icon.png")
 
 # page configurations
 st.set_page_config(
@@ -46,13 +41,6 @@ st.markdown(
         # 📚 Projects
     """, unsafe_allow_html=True
 )
-
-# function that loads lottiefiles through url
-def load_lottie_url(lottie_url: str):
-    r = requests.get(lottie_url)
-    if r.status_code != 200:
-        return None
-    return r.json()
 
 # generalized method to dispaly the details about the project
 def project_info(project_title: str, demo_link: str, github_link: str) -> None:
