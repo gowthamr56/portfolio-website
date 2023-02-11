@@ -29,13 +29,5 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-# view = st.checkbox("View")
-# if view:
-#     resume_url = "https://resume.io/r/NkRLMzXwb"
-    
-#     view_btn = st.button("Click to view")
-#     if view_btn:
-#         webbrowser.open_new_tab(resume_url)
-# else:
 with open("resume_pdf.pdf", "rb") as file:
     st.download_button(f"Click to download", data=file, file_name="Gowtham-Resume.pdf")
