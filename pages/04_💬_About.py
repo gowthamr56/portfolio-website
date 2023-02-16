@@ -64,7 +64,8 @@ with col2:
             📌 I did my high schooling in <b>Sri Vinayaga Matric Higher Secondary School</b> in Pennagaram(Tk), Dharmapuri(Dt) with <b>94.4%</b><br>
             📌 I have done my higher secondary studies in <b> Paramveer Matric Higher Secondary School</b> in papparapatti, Dharmapuri(Dt) with <b>77.2%</b><br>
             📌 Currently, I'm pursuing <b>final year</b> in <b>B.E - Computer Science</b> in <b>The Kavery Engineering College</b>, Salem(Dt).<br>
-            📌 I love programming in <b>Python</b>. After I got clear in the basics of Python, I moved to work with <b>Computer Vision</b> and I have completed my couple of projects with that. I'm also having knowledge about <b>HTML, CSS,</b> and <b>MySQL</b>.<br>
+            📌 I love programming in <b>Python</b>. After I got clear in the basics of Python, I moved to work with <b>Computer Vision</b> and I have completed my couple of projects with that. 
+            📌 My other skills include <b>HTML, CSS, GIT</b> and <b>SQL</b>.<br>
             📌 Scroll down to visit my <b>social profiles</b>.
         </p>
         """, unsafe_allow_html=True

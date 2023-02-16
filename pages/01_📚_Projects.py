@@ -55,9 +55,9 @@ def project_info(project_title: str, demo_link: str, github_link: str) -> None:
 # title of the page
 # st.title("📚 Projects")
 
-# sixth project - handwritten digit recognition system
-six = st.container()
-with six:
+
+cont_1 = st.container()
+with cont_1:
     col1, col2 = st.columns(2)
     with col1:
         project_info(
@@ -78,21 +78,21 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-# fifth project - weather forecasting application
-five = st.container()
-with five:
+
+cont_2 = st.container()
+with cont_2:
     col1, col2 = st.columns(2)
     with col1:
+        project_info(
+            project_title="Stock Price Notifier with GitHub Actions",
+            demo_link="https://github.com/gowthamr56/stock-price-notifier/actions",
+            github_link="https://github.com/gowthamr56/stock-price-notifier"
+        )
+    with col2:
         project_info(
             project_title="YouTube video and audio downloader",
             demo_link="https://gowthamr56-youtube-video-downloader-using-python-main-cgb307.streamlitapp.com/",
             github_link="https://github.com/gowthamr56/Youtube-video-downloader-using-python.git"
-        )
-    with col2:
-        project_info(
-            project_title="QR CODE generator and scanner",
-            demo_link="https://gowthamr56-scan-create-qr-main-s638mm.streamlitapp.com/",
-            github_link="https://github.com/gowthamr56/scan-create-qr.git"
         )
 
 st.markdown(
@@ -101,22 +101,41 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-# first project - youtube video/audio downloader
-one = st.container()
-with one:
+
+cont_3 = st.container()
+with cont_3:
     col1, col2 = st.columns(2)
     with col1:
+        project_info(
+            project_title="QR CODE generator and scanner",
+            demo_link="https://gowthamr56-scan-create-qr-main-s638mm.streamlitapp.com/",
+            github_link="https://github.com/gowthamr56/scan-create-qr.git"
+        )
+    with col2:
         project_info(
             project_title="Hand gesture volume control using computer vision",
             demo_link="https://pynerds.blogspot.com",
             github_link="https://github.com/gowthamr56/Gesture-Volume-Control-using-OpenCV-with-Python.git"
         )
-    with col2:
+
+st.markdown(
+    """
+    <hr>
+    """, unsafe_allow_html=True
+)
+
+
+cont_4 = st.container()
+with cont_4:
+    col1, col2 = st.columns(2)
+    with col1:
         project_info(
             project_title="Virtual mouse using computer vision",
             demo_link="https://pynerds.blogspot.com",
             github_link="https://github.com/gowthamr56/virtual-mouse-using-computer-vision.git"
         )
+    with col2:
+        pass
 
 st.markdown(
     """
