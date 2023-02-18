@@ -69,6 +69,36 @@ def blog_post(blog_title: str, blog_link: str, blog_caption: str, date: int, mon
         """, unsafe_allow_html=True
     )
 
+# ------------------------------------------------------ #
+
+with  st.container():
+    col2, col3 = st.columns(2)
+    # with col1:
+    #     ...
+    with col2:
+        blog_post(
+            "Parallelism Vs Concurrency | Learn Python Stuffs with ChatGPT | #3",
+            "https://medium.com/@gowtham180502/parallelism-vs-concurrency-learn-python-stuffs-with-chatgpt-3-165a14027db6",
+            "This article in the series will walk you through “Parallelism vs Concurrency”",
+            18,
+            "Feb",
+            2023,
+            ["Python", "Parallelism/Concurrency"]
+        )
+    with col3:
+        blog_post(
+            "Is threading in Python parallel? | Learn Python Stuffs with ChatGPT | #2",
+            "https://medium.com/towardsdev/is-threading-in-python-parallel-learn-python-stuffs-with-chatgpt-2-b51e95ccc71f",
+            "This article in the series will walk you through “Is really threading in python parallel?”",
+            6,
+            "Feb",
+            2023,
+            ["Python", "Threading"]
+        )
+
+st.markdown(
+    """<hr>""", unsafe_allow_html=True)
+
 with st.container():
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -101,6 +131,9 @@ with st.container():
             2022,
             ["Python", "File Handling"]
         )
+
+st.markdown(
+    """<hr>""", unsafe_allow_html=True)
 
 with st.container():
     col1, col2, col3 = st.columns(3)
@@ -135,6 +168,9 @@ with st.container():
             ["CNN Model Deployment", "IBM Cloud"]
         )
 
+st.markdown(
+    """<hr>""", unsafe_allow_html=True)
+
 with st.container():
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -167,6 +203,9 @@ with st.container():
             2022,
             ["Python", "Computer Vision"]
         )
+
+st.markdown(
+    """<hr>""", unsafe_allow_html=True)
 
 with st.container():
     col1, col2, col3 = st.columns(3)
@@ -201,6 +240,9 @@ with st.container():
             ["Python", "Data Structures"]
         )
 
+st.markdown(
+    """<hr>""", unsafe_allow_html=True)
+
 with st.container():
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -234,6 +276,9 @@ with st.container():
             ["Python", "Text to Speech"]
         )
 
+st.markdown(
+    """<hr>""", unsafe_allow_html=True)
+
 with st.container():
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -266,3 +311,6 @@ with st.container():
             2020,
             ["Python", "File Handling"]
         )
+
+st.markdown(
+    """<hr>""", unsafe_allow_html=True)
