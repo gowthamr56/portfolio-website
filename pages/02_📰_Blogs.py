@@ -36,7 +36,7 @@ st.markdown(
             transition-duration: 1s;
             transition-timing-function: ease;
         }
-        div.css-ocqkz7.e1tzin5v4>div:hover{
+        div.css-keje6w.e1tzin5v1>div:hover{
             background: #E7E4E4;
             transform: scale(1.03);
         }
