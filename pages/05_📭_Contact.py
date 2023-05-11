@@ -27,7 +27,7 @@ st.markdown("""
         header, footer{
             visibility: hidden;
         }
-        div.css-keje6w.e1tzin5v2{
+        div.css-keje6w.e1tzin5v1{
             display: flex;
             justify-content: center;
             align-items: center;
