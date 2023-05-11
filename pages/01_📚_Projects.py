@@ -24,7 +24,7 @@ st.markdown(
                 justify-content: center;
                 align-items: center;
             }
-            div.css-znku1x.e16nr0p33>p>a{
+            div.css-5rimss.e16nr0p34>p>a{
                 display: block;
                 border: 2px solid #31333f;
                 border-radius: 5px;
