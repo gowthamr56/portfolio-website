@@ -29,14 +29,14 @@ st.markdown(
         .css-eczf16.e16nr0p31{
             text-decoration: none;
         }
-        div.css-1r6slb0.e1tzin5v1>div{
+        div.css-1gpl4m3.e1tzin5v0>div{
             padding: 10px;
             border-radius: 10px;
             transition-property: all;
             transition-duration: 1s;
             transition-timing-function: ease;
         }
-        div.css-1r6slb0.e1tzin5v1>div:hover{
+        div.css-1gpl4m3.e1tzin5v0>div:hover{
             background: #E7E4E4;
             transform: scale(1.03);
         }
