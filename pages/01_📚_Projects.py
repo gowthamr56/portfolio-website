@@ -66,11 +66,11 @@ with cont_1:
         )
     with col2:
         project_info(
-        project_title="Google Sheets Mail Merge Extension Clone using Python",
-        demo_link="https://github.com/gowthamr56/Google-Mail-Merge-Clone/blob/master/README.md#google-mail-merge-clone",
-        github_link="https://github.com/gowthamr56/Google-Mail-Merge-Clone"
-    )
-        
+            project_title="GBackupPy - Google Drive Backup Project using Python",
+            demo_link="https://github.com/gowthamr56/Google-Drive-Backup/blob/master/README.md",
+            github_link="https://github.com/gowthamr56/Google-Drive-Backup"
+        )
+
 st.markdown(
     """
     <hr>
@@ -83,15 +83,15 @@ with cont_2:
     col1, col2 = st.columns(2)
     with col1:
         project_info(
+        project_title="Google Sheets Mail Merge Extension Clone using Python",
+        demo_link="https://github.com/gowthamr56/Google-Mail-Merge-Clone/blob/master/README.md#google-mail-merge-clone",
+        github_link="https://github.com/gowthamr56/Google-Mail-Merge-Clone"
+    )
+    with col2:
+        project_info(
             project_title="Weather forecasting appliction using Flask and Python",
             demo_link="https://check-weather-in-your-city.herokuapp.com",
             github_link="https://github.com/gowthamr56/weather-application-with-flask.git"
-        )
-    with col2:
-        project_info(
-            project_title="Stock Price Notifier with GitHub Actions",
-            demo_link="https://github.com/gowthamr56/stock-price-notifier/actions",
-            github_link="https://github.com/gowthamr56/stock-price-notifier"
         )
 
 st.markdown(
@@ -106,15 +106,15 @@ with cont_3:
     col1, col2 = st.columns(2)
     with col1:
         project_info(
-            project_title="YouTube video and audio downloader",
-            demo_link="https://gowthamr56-youtube-video-downloader-using-python-main-cgb307.streamlitapp.com/",
-            github_link="https://github.com/gowthamr56/Youtube-video-downloader-using-python.git"
+            project_title="Stock Price Notifier with GitHub Actions",
+            demo_link="https://github.com/gowthamr56/stock-price-notifier/actions",
+            github_link="https://github.com/gowthamr56/stock-price-notifier"
         )
     with col2:
         project_info(
-            project_title="QR CODE generator and scanner",
-            demo_link="https://gowthamr56-scan-create-qr-main-s638mm.streamlitapp.com/",
-            github_link="https://github.com/gowthamr56/scan-create-qr.git"
+            project_title="YouTube video and audio downloader",
+            demo_link="https://gowthamr56-youtube-video-downloader-using-python-main-cgb307.streamlitapp.com/",
+            github_link="https://github.com/gowthamr56/Youtube-video-downloader-using-python.git"
         )
 
 st.markdown(
@@ -129,16 +129,34 @@ with cont_4:
     col1, col2 = st.columns(2)
     with col1:
         project_info(
+            project_title="QR CODE generator and scanner",
+            demo_link="https://gowthamr56-scan-create-qr-main-s638mm.streamlitapp.com/",
+            github_link="https://github.com/gowthamr56/scan-create-qr.git"
+        )
+    with col2:
+        project_info(
             project_title="Hand gesture volume control using computer vision",
             demo_link="https://pynerds.blogspot.com",
             github_link="https://github.com/gowthamr56/Gesture-Volume-Control-using-OpenCV-with-Python.git"
         )
-    with col2:
+
+st.markdown(
+    """
+    <hr>
+    """, unsafe_allow_html=True
+)
+
+cont_5 = st.container()
+with cont_5:
+    col1, col2 = st.columns(2)
+    with col1:
         project_info(
             project_title="Virtual mouse using computer vision",
             demo_link="https://pynerds.blogspot.com",
             github_link="https://github.com/gowthamr56/virtual-mouse-using-computer-vision.git"
         )
+    with col2:
+        pass
 
 st.markdown(
     """

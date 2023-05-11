@@ -1,7 +1,6 @@
 # RESUME PAGE
 import streamlit as st
 from generalize import get_page_icon
-import webbrowser
 
 # getting page icon 
 page_icon = get_page_icon(icon_url="https://raw.githubusercontent.com/gowthamr56/portfolio-website/master/icons/page_icon.png")
