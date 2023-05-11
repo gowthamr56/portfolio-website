@@ -19,12 +19,12 @@ st.markdown("""
         header, footer{
             visibility: hidden;
         }
-        div.css.keje6w.e1tzin5v2{
+        div.css-keje6w.e1tzin5v1{
             display: flex;
-            flex-direction: vertical;
             justify-content: center;
             align-items: center;
         }
+        
     </style>
 """, unsafe_allow_html=True)
 
