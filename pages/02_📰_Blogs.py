@@ -29,7 +29,7 @@ st.markdown(
         .css-eczf16.e16nr0p31{
             text-decoration: none;
         }
-        div.css-ocqkz7.e1tzin5v4>div{
+        div.css-keje6w.e1tzin5v1>div{
             padding: 10px;
             border-radius: 10px;
             transition-property: all;
