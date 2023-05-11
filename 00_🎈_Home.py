@@ -21,6 +21,7 @@ st.markdown("""
         }
         div.css.keje6w.e1tzin5v2{
             display: flex;
+            flex-direction: vertical;
             justify-content: center;
             align-items: center;
         }
