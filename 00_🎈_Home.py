@@ -19,7 +19,7 @@ st.markdown("""
         header, footer{
             visibility: hidden;
         }
-        div.css-keje6w.e1tzin5v2{
+        div.css-5rimss.e16nr0p34{
             display: flex;
             justify-content: center;
             align-items: center;
