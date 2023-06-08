@@ -2,7 +2,7 @@ name: "ST-CAFFEINE"
 
 on:
   schedule:
-    - cron: "30 8 * * *"  # testing cron expression
+    - cron: "42 8 * * *"  # testing cron expression
 
 jobs:
   build: 
@@ -17,6 +17,11 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
+
+      - name: "Installing python modules/packages"
+        run: |
+          python -m pip install --upgrage pip
+          pip install pytz
 
       - name: "Running python script (workflow_logger.py)"
         run: python workflow_logger.py
