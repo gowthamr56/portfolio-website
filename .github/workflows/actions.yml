@@ -1,8 +1,8 @@
 name: "ST-CAFFEINE"
 
-on: [
+on:
   schedule:
-    - cron: "45 6 * * *"  # testing cron expression]
+    - cron: "45 6 * * *"  # testing cron expression
 
 jobs:
   build: 
