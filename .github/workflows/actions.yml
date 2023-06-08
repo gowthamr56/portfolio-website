@@ -2,7 +2,7 @@ name: "ST-CAFFEINE"
 
 on:
   schedule:
-    - cron: "15 8 * * *"  # testing cron expression
+    - cron: "30 8 * * *"  # testing cron expression
 
 jobs:
   build: 
