@@ -1,6 +1,8 @@
 name: "ST-CAFFEINE"
 
-on: [push]
+on: 
+  schedule:
+    - cron: * * * * *  # testing cron expression
 
 jobs:
   build: 
@@ -11,18 +13,24 @@ jobs:
         with:
           persist-credentials: false
 
-      # - name: "Commiting empty changes"
-      #   run: |
-      #     git config --global user.name "${{secrets.USER_NAME}}"
-      #     git config --global user.email "${{secrets.USER_EMAIL}}"
-      #     git config --global user.passwd "${{secrets.USER_PASSWD}}"
+      - name: "Setting up Python"
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
 
-      #     git commit --allow-empty -m "empty commit"
+      - name: "Running python script (workflow_logger.py)"
+        run: python workflow_logger.py
 
-      # - name: "Pushing empty commit"
-      #   uses: "ad-m/github-push-action@master"
-      #   with: 
-      #     github_token: ${{secrets.TOKEN}}
+      - name: "Commiting empty changes"
+        run: |
+          git config --global user.name "${{secrets.USER_NAME}}"
+          git config --global user.email "${{secrets.USER_EMAIL}}"
+          git config --global user.passwd "${{secrets.USER_PASSWD}}"
 
-      - run: |
-          ls -a
+          git add .
+          git commit --allow-empty -m "workflow logs updated"
+
+      - name: "Pushing empty commit"
+        uses: "ad-m/github-push-action@master"
+        with: 
+          github_token: ${{secrets.TOKEN}}
