@@ -1,0 +1,25 @@
+name: "ST-CAFFEINE"
+
+on: [commit]
+
+jobs:
+  build: 
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: "Checkout the repository"
+        uses: "actions/checkout@v3"
+        with:
+          persist-credentials: false
+
+      - name: "Commiting empty changes"
+        run: |
+          git config --global user.name "${{secrets.USER_NAME}}"
+          git config --global user.email "${{secrets.USER_EMAIL}}"
+          git config --global user.passwd "${{secrets.USER_PASSWD}}"
+
+          git commit --allow-empty -m "empty commit"
+
+      - name: "Pushing empty commit"
+        uses: "ad-m/github-push-action@master"
+        with: 
+          github_token: ${{secrets.TOKEN}}
