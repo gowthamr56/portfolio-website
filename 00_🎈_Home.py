@@ -15,6 +15,9 @@ st.set_page_config(
 
 # styling(CSS) for the home page
 st.markdown("""
+    <html>
+        <meta name="google-site-verification" content="7fTCXTyMK9kLEOM38muhFZi-I8GEGoHk0AJOzRWouo0" />
+    </html>
     <style>
         header, footer{
             visibility: hidden;
