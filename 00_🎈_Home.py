@@ -1,6 +1,7 @@
 # HOME PAGE
 import streamlit as st
 from streamlit_lottie import st_lottie
+from streamlit.components.v1 import html
 from generalize import load_lottie_url, get_page_icon
 
 # getting page icon
@@ -12,6 +13,10 @@ st.set_page_config(
     page_title="Gowtham - Home",
     layout="wide"
 )
+
+# google search console meta tag
+meta_tag = f'<head><meta name="google-site-verification" content="7fTCXTyMK9kLEOM38muhFZi-I8GEGoHk0AJOzRWouo0" /></head>'
+html(meta_tag)
 
 # styling(CSS) for the home page
 st.markdown("""
