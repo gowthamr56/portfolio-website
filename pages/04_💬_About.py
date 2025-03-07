@@ -60,13 +60,13 @@ with col2:
     st.markdown(
         """
         <p style="font-size: 18px">
-            📌 I am from Dharmapuri District, Tamil Nadu, India.
-            📌 I completed my high schooling at <b>Sri Vinayaga Matric Higher Secondary School</b> in Pennagaram, Dharmapuri, with a score of <b>94.4%</b>.
-            📌 I pursued my higher secondary education at <b>Paramveer Matric Higher Secondary School</b> in Papparapatti, Dharmapuri, achieving <b>77.2%</b>.
-            📌 I earned my Bachelor’s Degree in Computer Science & Engineering from <b>The Kavery Engineering College</b>, Salem, with a CGPA of <b>8.45</b>.
-            📌 My passion lies in programming—especially in <b>Python</b>. After mastering the fundamentals, I delved into Computer Vision and successfully completed several projects in this domain.
-            📌 As AI continues to reshape the coding landscape, I chose to pursue a career in <b>Digital Marketing</b>, a field that aligns with my keen interest in marketing strategies. This decision led me to join <b><a href="https://www.genxlead.com/" target="_blanck">Genxlead Solutions Pvt Ltd</a></b> as an <b>Email Marketing Executive</b>, where I am continuously enhancing my skills and expanding my knowledge in the dynamic world of digital marketing.
-            📌 Scroll down to visit my <b>social profiles</b>.
+            I am from Dharmapuri District, Tamil Nadu, India.
+            I completed my high schooling at <b>Sri Vinayaga Matric Higher Secondary School</b> in Pennagaram, Dharmapuri, with a score of <b>94.4%</b>.
+            I pursued my higher secondary education at <b>Paramveer Matric Higher Secondary School</b> in Papparapatti, Dharmapuri, achieving <b>77.2%</b>.
+            I earned my Bachelor’s Degree in Computer Science & Engineering from <b>The Kavery Engineering College</b>, Salem, with a CGPA of <b>8.45</b>.
+            My passion lies in programming—especially in <b>Python</b>. After mastering the fundamentals, I delved into Computer Vision and successfully completed several projects in this domain.
+            As AI continues to reshape the coding landscape, I chose to pursue a career in <b>Digital Marketing</b>, a field that aligns with my keen interest in marketing strategies. This decision led me to join <b><a href="https://www.genxlead.com/" target="_blanck">Genxlead Solutions Pvt Ltd</a></b> as an <b>Email Marketing Executive</b>, where I am continuously enhancing my skills and expanding my knowledge in the dynamic world of digital marketing.
+            Scroll down to visit my <b>social profiles</b>.
         </p>
         """, unsafe_allow_html=True
     )
