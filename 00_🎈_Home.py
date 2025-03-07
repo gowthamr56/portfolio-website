@@ -41,7 +41,7 @@ with col1:
     st.markdown("""
         ## Hai👋🏻, I' am
         # Gowtham Ravichandran
-        #### I'm a guy who mostly thinks about the solution in a pythonic🐍 way
+        #### I craft smarter marketing by blending AI innovation with human insight💡
     """, unsafe_allow_html=True)
 
 with col2:
